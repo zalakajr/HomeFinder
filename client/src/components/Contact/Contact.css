@@ -10,6 +10,19 @@
 .c-left {
   gap: 0.5rem;
 }
+
+
+.contact-center{
+  width: 100%;
+  display: flex;
+  font-size: 2rem;
+
+}
+.c-bag{
+  padding-top: 7rem;
+  
+}
+
 .contactModes {
   margin-top: 2rem;
   gap: 1rem;

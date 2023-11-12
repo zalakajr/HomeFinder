@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import "../../index.css"
 import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../../utils/common";
 import useHeaderColor from "../../hooks/useHeaderColor";
@@ -9,6 +10,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import ProfileMenu from "../ProfileMenu/ProfileMenu";
 import AddPropertyModal from "../AddPropertyModal/AddPropertyModal";
 import useAuthCheck from "../../hooks/useAuthCheck.jsx";
+
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -28,7 +30,8 @@ const Header = () => {
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
         <Link to="/">
-          <img src="./logo.png" alt="logo" width={100} />
+         <div className="flex logo-text">HomeFinder</div>
+        
         </Link>
 
         {/* menu */}
@@ -42,13 +45,14 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <NavLink to="/properties">Properties</NavLink>
+            <NavLink to="/properties">Homes</NavLink>
 
             <a href="mailto:zainkeepscode@gmail.com">Contact</a>
 
             {/* add property */}
-            <div onClick={handleAddPropertyClick}>Add Property</div>
+            <div onClick={handleAddPropertyClick}>Add Homes</div>
             <AddPropertyModal opened={modalOpened} setOpened={setModalOpened} />
+            
             {/* login button */}
             {!isAuthenticated ? (
               <button className="button" onClick={loginWithRedirect}>

@@ -19,11 +19,11 @@ import "./Value.css";
 const Value = () => {
   return (
     <section id="value" className="v-wrapper">
-      <div className="paddings innerWidth flexCenter v-container">
+      <div className="paddings innerWidth flexCenter v-container v-down">
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="./value.png" alt="" />
+            <img src="./value.jpg" alt="" />
           </div>
         </div>
 
@@ -31,7 +31,7 @@ const Value = () => {
         <div className="flexColStart v-right">
           <span className="orangeText">Our Value</span>
 
-          <span className="primaryText">Value We Give to You</span>
+          <span className="text-color">Value We Give to You</span>
 
           <span className="secondaryText">
             We always ready to help by providijng the best services for you.

@@ -66,7 +66,7 @@ const Property = () => {
   }
 
   return (
-    <div className="wrapper">
+    <div className="">
       <div className="flexColStart paddings innerWidth property-container">
         {/* like button */}
         <div className="like">

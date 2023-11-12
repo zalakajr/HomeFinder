@@ -19,13 +19,13 @@ const Hero = () => {
             }}
             >
               Discover <br />
-              Most Suitable
-              <br /> Property
+              Your Dream
+              <br /> Residence
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>Discover Affordable Homes, Where Comfort,</span>
+            <span>Meets Affordability.</span>
           </div>
 
           <SearchBar/>
@@ -65,7 +65,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="./hero-image.png" alt="houses" />
+            <img src="./hero-image.jpg" alt="houses" />
           </motion.div>
         </div>
       </div>

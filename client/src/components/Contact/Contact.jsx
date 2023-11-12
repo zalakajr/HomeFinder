@@ -6,14 +6,16 @@ import {HiChatBubbleBottomCenter} from 'react-icons/hi2'
 const Contact = () => {
   return (
     <div id="contact-us" className="c-wrapper">
-      <div className="paddings innerWidth flexCenter c-container">
+      <div className="paddings innerWidth flexCenter c-container c-bag">
         {/* left side */}
+       
         <div className="flexColStart c-left">
-          <span className="orangeText">Our Contact Us</span>
-          <span className="primaryText">Easy to contact us</span>
+        <span className="orangeText contact-center">Our Contact</span>
+          <span className="primaryText text-cor">Feel Free to contact us</span>
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you. We
-            beleive a good blace to live can make your life better{" "}
+          We are dedicated to offering affordable services, 
+          as we believe that everyone deserves access to cost-effective 
+          living solutions that improve their quality of life.{" "}
           </span>
 
           <div className="flexColStart contactModes">
@@ -26,7 +28,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+237 674128117</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Call now</div>
@@ -39,7 +41,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Chat</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+237 674128117</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Chat now</div>
@@ -55,7 +57,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+237 674128117</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Video Call now</div>
@@ -68,7 +70,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Message</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+237 674128117</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Message now</div>
